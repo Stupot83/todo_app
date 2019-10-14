@@ -1,4 +1,4 @@
-require "todo"
+Dir["./lib/*.rb"].each { |file| require file }
 
 describe "Todo" do
   before :each do
